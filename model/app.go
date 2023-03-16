@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"gitlab.com/promptech1/infuser-author/constant"
-	"gitlab.com/promptech1/infuser-author/database"
-	errors "gitlab.com/promptech1/infuser-author/error"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
+	"github.com/kekim-go/Author/constant"
+	"github.com/kekim-go/Author/database"
+	errors "github.com/kekim-go/Author/error"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"xorm.io/xorm"
 )
 

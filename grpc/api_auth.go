@@ -2,9 +2,10 @@ package server
 
 import (
 	"context"
-	"gitlab.com/promptech1/infuser-author/handler"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
-	"gitlab.com/promptech1/infuser-author/model"
+
+	"github.com/kekim-go/Author/handler"
+	"github.com/kekim-go/Author/model"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 )
 
 type apiAuthServer struct {

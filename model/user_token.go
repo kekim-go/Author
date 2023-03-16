@@ -6,8 +6,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"gitlab.com/promptech1/infuser-author/constant"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
+	"github.com/kekim-go/Author/constant"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"xorm.io/xorm"
 )
 

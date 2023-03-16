@@ -3,8 +3,8 @@ package relations
 import (
 	"net/http"
 
-	errors "gitlab.com/promptech1/infuser-author/error"
-	"gitlab.com/promptech1/infuser-author/model"
+	errors "github.com/kekim-go/Author/error"
+	"github.com/kekim-go/Author/model"
 	"xorm.io/xorm"
 )
 

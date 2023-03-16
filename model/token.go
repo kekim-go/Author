@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"gitlab.com/promptech1/infuser-author/constant"
-	errors "gitlab.com/promptech1/infuser-author/error"
+	"github.com/kekim-go/Author/constant"
+	errors "github.com/kekim-go/Author/error"
 	"xorm.io/xorm"
 )
 

@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"github.com/kekim-go/Author/constant"
+	"github.com/kekim-go/Author/handler"
+	"github.com/kekim-go/Author/model"
+	"github.com/kekim-go/Author/model/relations"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"github.com/sirupsen/logrus"
-	"gitlab.com/promptech1/infuser-author/constant"
-	"gitlab.com/promptech1/infuser-author/handler"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
-	"gitlab.com/promptech1/infuser-author/model"
-	"gitlab.com/promptech1/infuser-author/model/relations"
 )
 
 type authServer struct {

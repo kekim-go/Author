@@ -6,9 +6,9 @@ import (
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
-	"gitlab.com/promptech1/infuser-author/app/ctx"
-	"gitlab.com/promptech1/infuser-author/handler"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
+	"github.com/kekim-go/Author/app/ctx"
+	"github.com/kekim-go/Author/handler"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"google.golang.org/grpc"
 )
 

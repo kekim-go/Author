@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
+	"github.com/kekim-go/Author/app"
+	"github.com/kekim-go/Author/app/ctx"
+	"github.com/kekim-go/Author/constant"
+	"github.com/kekim-go/Author/model"
 	"github.com/robfig/cron/v3"
 	log "github.com/sirupsen/logrus"
-	"gitlab.com/promptech1/infuser-author/app"
-	"gitlab.com/promptech1/infuser-author/app/ctx"
-	"gitlab.com/promptech1/infuser-author/constant"
-	"gitlab.com/promptech1/infuser-author/model"
 )
 
 var (

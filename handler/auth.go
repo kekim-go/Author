@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"gitlab.com/promptech1/infuser-author/app/ctx"
+	"github.com/kekim-go/Author/app/ctx"
 )
 
 type AuthHandler struct {

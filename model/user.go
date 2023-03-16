@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	errors "gitlab.com/promptech1/infuser-author/error"
+	errors "github.com/kekim-go/Author/error"
 	"golang.org/x/crypto/bcrypt"
 	"xorm.io/xorm"
 )

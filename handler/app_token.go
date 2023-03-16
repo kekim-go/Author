@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/go-redis/redis/v8"
+	"github.com/kekim-go/Author/app/ctx"
+	"github.com/kekim-go/Author/constant"
+	"github.com/kekim-go/Author/model"
+	grpc_author "github.com/kekim-go/Protobuf/gen/proto/author"
 	"github.com/sirupsen/logrus"
-	"gitlab.com/promptech1/infuser-author/app/ctx"
-	"gitlab.com/promptech1/infuser-author/constant"
-	grpc_author "gitlab.com/promptech1/infuser-author/infuser-protobuf/gen/proto/author"
-	"gitlab.com/promptech1/infuser-author/model"
 )
 
 type AppTokenHandler struct {

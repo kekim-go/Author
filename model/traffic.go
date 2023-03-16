@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.com/promptech1/infuser-author/constant"
-	"gitlab.com/promptech1/infuser-author/database"
-	errors "gitlab.com/promptech1/infuser-author/error"
+	"github.com/kekim-go/Author/constant"
+	"github.com/kekim-go/Author/database"
+	errors "github.com/kekim-go/Author/error"
 	"xorm.io/xorm"
 )
 

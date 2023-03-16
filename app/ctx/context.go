@@ -1,8 +1,8 @@
 package ctx
 
 import (
+	"github.com/kekim-go/Author/database"
 	"github.com/sirupsen/logrus"
-	"gitlab.com/promptech1/infuser-author/database"
 	"xorm.io/xorm"
 )
 

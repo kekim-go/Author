@@ -3,9 +3,9 @@ package handler
 import (
 	"time"
 
+	"github.com/kekim-go/Author/app/ctx"
+	"github.com/kekim-go/Author/model"
 	"github.com/thoas/go-funk"
-	"gitlab.com/promptech1/infuser-author/app/ctx"
-	"gitlab.com/promptech1/infuser-author/model"
 )
 
 type AppHandler struct {
